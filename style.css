@@ -1,0 +1,77 @@
+@charset "UFT-08";
+
+
+body {
+    background-color: rgb(15, 17, 16);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border: 200px rgb(37, 232, 37);
+    border-width: 3px;
+    border-style: solid;
+}
+header{
+  padding: 5px;
+  color: rgb(161, 6, 6);
+}
+footer{
+    color: white;
+}
+h1 {
+    color:  rgb(37, 232, 37);
+    margin:25px ;
+}
+.container{
+  background: linear-gradient(blue, rgb(71, 157, 228),blue);
+  border-radius: 10px;
+  padding:5px;
+  margin:5%;
+  box-shadow: 3px 3px 3px rgba(5, 49, 68, 0.727);
+}
+h2 {
+  padding:5px;
+  color: rgba(9, 4, 30, 0.971);
+}
+.classe{
+  color: rgba(232, 225, 27, 0.99);
+}
+.rus-logo {
+    width: 60px;/*largura*/
+    position: absolute;
+    top: 30px;
+    right:80px;
+   /* border-radius: 50px; /*Borda do elemento 'circular'*/
+    background: linear-gradient( gray,white,rgb(183, 7, 39));
+    padding: 10px;/*define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    box-shadow: 2px 2px 2px rgb(37, 232, 37);
+    border-radius: 50%;/*Borda do elemento 'circular'*/
+    height: 60px;/*altura*/
+}
+.voltar{
+    font-family:sans-serif;
+    color:rgb(219, 232, 219);
+}
+a{
+      color: rgb(37, 232, 37);
+      font-family: Arial, Helvetica, sans-serif;
+}
+.canal{
+      color:rgb(37, 232, 37);
+}
+.video{
+    background: rgb(15, 14, 14); /*Cor de fundo do conteudo(container)*/
+    color: blue; /*Cor do texto*/
+    margin:5% ; /*Dimensiona o tamanho da margem, do ( body para conteiner)*/
+    border-radius: 10px; /*Borda do elemento 'circular'*/
+    box-shadow: 2px 2px 2px rgb(37, 232, 37);/*Sombra do elemento*/
+   /*Dimensiona o tamanho dar margem dentro do (container)*/
+    padding:2px;
+}
+iframe{
+    margin:5% ;
+    width: 60%;
+}
+
+img {
+  max-height: 150px;
+}
