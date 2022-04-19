@@ -38,8 +38,8 @@ h2 {
 .rus-logo {
     width: 60px;/*largura*/
     position: absolute;
-    top: 100px;
-    right:60px;
+    top: 80px;
+    right:40px;
    /* border-radius: 50px; /*Borda do elemento 'circular'*/
     background: linear-gradient( gray,white,rgb(183, 7, 39));
     padding: 10px;/*define uma a distância entre o conteúdo de um elemento e suas bordas*/
