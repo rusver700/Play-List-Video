@@ -11,11 +11,13 @@ body {
     border-style: solid;
 }
 header{
-  padding: 5px;
-  color: rgb(161, 6, 6);
+  color: rgb(86, 6, 161);
+  font-size: 12px;
 }
+
 footer{
-    color: white;
+    font-family:serif;
+    color:#fff
 }
 h1 {
     color:  rgb(37, 232, 37);
@@ -34,18 +36,6 @@ h2 {
 }
 .classe{
   color: rgba(232, 225, 27, 0.99);
-}
-.rus-logo {
-    width: 60px;/*largura*/
-    position: absolute;
-    top: 75px;
-    right:40px;
-   /* border-radius: 50px; /*Borda do elemento 'circular'*/
-    background: linear-gradient( gray,white,rgb(183, 7, 39));
-    padding: 10px;/*define uma a distância entre o conteúdo de um elemento e suas bordas*/
-    box-shadow: 2px 2px 2px rgb(37, 232, 37);
-    border-radius: 50%;/*Borda do elemento 'circular'*/
-    height: 60px;/*altura*/
 }
 .voltar{
     font-family:sans-serif;
@@ -69,10 +59,27 @@ a{
 }
 iframe{
     margin:5% ;
-    width: 90%;
- 
+    width: 60%;
 }
 
 img {
   max-height: 150px;
+}
+
+
+.rus-logo {
+    width:75px;/*largura*/
+    position: absolute;
+    top: 30px;
+    right:80px;
+   /* border-radius: 50px; /*Borda do elemento 'circular'*/
+    background: linear-gradient( gray,white,rgb(7, 48, 114));
+    padding: 5px;/*define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    box-shadow: 2px 2px 2px rgb(113, 150, 159);
+    border-radius: 50%;/*Borda do elemento 'circular'*/
+    height:75px;/*altura*/
+}
+header{
+    color: rgb(86, 6, 161);
+    font-size: 12px;
 }
