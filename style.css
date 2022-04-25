@@ -49,12 +49,11 @@ a{
       color:rgb(37, 232, 37);
 }
 .video{
-    background: rgb(15, 14, 14); /*Cor de fundo do conteudo(container)*/
-    color: blue; /*Cor do texto*/
-    margin:5% ; /*Dimensiona o tamanho da margem, do ( body para conteiner)*/
-    border-radius: 10px; /*Borda do elemento 'circular'*/
-    box-shadow: 2px 2px 2px rgb(37, 232, 37);/*Sombra do elemento*/
-   /*Dimensiona o tamanho dar margem dentro do (container)*/
+    background: rgb(15, 14, 14); 
+    color: blue;
+    margin:5% ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(37, 232, 37);
     padding:2px;
 }
 iframe{
@@ -68,16 +67,14 @@ img {
 
 
 .rus-logo {
-    width:75px;/*largura*/
+    width:70px;
     position: absolute;
-    top: 30px;
-    right:80px;
-   /* border-radius: 50px; /*Borda do elemento 'circular'*/
+    top: 20px;
     background: linear-gradient( gray,white,rgb(7, 48, 114));
-    padding: 5px;/*define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    padding: 5px;
     box-shadow: 2px 2px 2px rgb(113, 150, 159);
-    border-radius: 50%;/*Borda do elemento 'circular'*/
-    height:75px;/*altura*/
+    border-radius: 50%;
+    height:70px;
 }
 header{
     color: rgb(86, 6, 161);
